@@ -1,0 +1,188 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* META-INF\
+* META-INF\MANIFEST.MF
+* PuntosReferencia.sqlite
+* PuntosReferencia.sqlite-journal
+* hs_err_pid1044.log
+* hs_err_pid1208.log
+* hs_err_pid2460.log
+* hs_err_pid2604.log
+* hs_err_pid3428.log
+* hs_err_pid3552.log
+* hs_err_pid3988.log
+* hs_err_pid4200.log
+* hs_err_pid4536.log
+* hs_err_pid4544.log
+* hs_err_pid4640.log
+* hs_err_pid4708.log
+* hs_err_pid5092.log
+* hs_err_pid5380.log
+* hs_err_pid5620.log
+* hs_err_pid5924.log
+* hs_err_pid6000.log
+* hs_err_pid6012.log
+* hs_err_pid6612.log
+* hs_err_pid6832.log
+* ic_launcher-web.png
+* net\
+* net\sourceforge\
+* net\sourceforge\jtds\
+* net\sourceforge\jtds\jdbc\
+* net\sourceforge\jtds\jdbc\BlobImpl.class
+* net\sourceforge\jtds\jdbc\CachedResultSet.class
+* net\sourceforge\jtds\jdbc\CharsetInfo$1.class
+* net\sourceforge\jtds\jdbc\CharsetInfo.class
+* net\sourceforge\jtds\jdbc\Charsets.properties
+* net\sourceforge\jtds\jdbc\ClobImpl.class
+* net\sourceforge\jtds\jdbc\ColInfo.class
+* net\sourceforge\jtds\jdbc\ConnectionJDBC2$1.class
+* net\sourceforge\jtds\jdbc\ConnectionJDBC2.class
+* net\sourceforge\jtds\jdbc\ConnectionJDBC3.class
+* net\sourceforge\jtds\jdbc\DateTime$1.class
+* net\sourceforge\jtds\jdbc\DateTime.class
+* net\sourceforge\jtds\jdbc\DefaultProperties.class
+* net\sourceforge\jtds\jdbc\Driver.class
+* net\sourceforge\jtds\jdbc\JtdsCallableStatement.class
+* net\sourceforge\jtds\jdbc\JtdsDatabaseMetaData.class
+* net\sourceforge\jtds\jdbc\JtdsPreparedStatement.class
+* net\sourceforge\jtds\jdbc\JtdsResultSet.class
+* net\sourceforge\jtds\jdbc\JtdsResultSetMetaData.class
+* net\sourceforge\jtds\jdbc\JtdsStatement.class
+* net\sourceforge\jtds\jdbc\MSCursorResultSet.class
+* net\sourceforge\jtds\jdbc\MSSqlServerInfo.class
+* net\sourceforge\jtds\jdbc\Messages.class
+* net\sourceforge\jtds\jdbc\Messages.properties
+* net\sourceforge\jtds\jdbc\NtlmAuth.class
+* net\sourceforge\jtds\jdbc\ParamInfo.class
+* net\sourceforge\jtds\jdbc\ParameterMetaDataImpl.class
+* net\sourceforge\jtds\jdbc\ProcEntry.class
+* net\sourceforge\jtds\jdbc\ProtocolException.class
+* net\sourceforge\jtds\jdbc\RequestStream.class
+* net\sourceforge\jtds\jdbc\ResponseStream$TdsInputStream.class
+* net\sourceforge\jtds\jdbc\ResponseStream.class
+* net\sourceforge\jtds\jdbc\SQLDiagnostic.class
+* net\sourceforge\jtds\jdbc\SQLParser$CachedSQLQuery.class
+* net\sourceforge\jtds\jdbc\SQLParser.class
+* net\sourceforge\jtds\jdbc\SavepointImpl.class
+* net\sourceforge\jtds\jdbc\Semaphore.class
+* net\sourceforge\jtds\jdbc\SharedLocalNamedPipe.class
+* net\sourceforge\jtds\jdbc\SharedNamedPipe.class
+* net\sourceforge\jtds\jdbc\SharedSocket$VirtualSocket.class
+* net\sourceforge\jtds\jdbc\SharedSocket.class
+* net\sourceforge\jtds\jdbc\Support$1.class
+* net\sourceforge\jtds\jdbc\Support.class
+* net\sourceforge\jtds\jdbc\TdsCore$1.class
+* net\sourceforge\jtds\jdbc\TdsCore$TableMetaData.class
+* net\sourceforge\jtds\jdbc\TdsCore$TdsToken.class
+* net\sourceforge\jtds\jdbc\TdsCore.class
+* net\sourceforge\jtds\jdbc\TdsData$TypeInfo.class
+* net\sourceforge\jtds\jdbc\TdsData.class
+* net\sourceforge\jtds\jdbc\TypeInfo.class
+* net\sourceforge\jtds\jdbc\UniqueIdentifier.class
+* net\sourceforge\jtds\jdbc\XASupport.class
+* net\sourceforge\jtds\jdbc\cache\
+* net\sourceforge\jtds\jdbc\cache\ProcedureCache$CacheEntry.class
+* net\sourceforge\jtds\jdbc\cache\ProcedureCache.class
+* net\sourceforge\jtds\jdbc\cache\SQLCacheKey.class
+* net\sourceforge\jtds\jdbc\cache\SimpleLRUCache.class
+* net\sourceforge\jtds\jdbc\cache\StatementCache.class
+* net\sourceforge\jtds\jdbcx\
+* net\sourceforge\jtds\jdbcx\JtdsDataSource.class
+* net\sourceforge\jtds\jdbcx\JtdsObjectFactory.class
+* net\sourceforge\jtds\jdbcx\JtdsXAConnection.class
+* net\sourceforge\jtds\jdbcx\JtdsXAResource.class
+* net\sourceforge\jtds\jdbcx\JtdsXid.class
+* net\sourceforge\jtds\jdbcx\PooledConnection.class
+* net\sourceforge\jtds\jdbcx\proxy\
+* net\sourceforge\jtds\jdbcx\proxy\CallableStatementProxy.class
+* net\sourceforge\jtds\jdbcx\proxy\ConnectionProxy.class
+* net\sourceforge\jtds\jdbcx\proxy\PreparedStatementProxy.class
+* net\sourceforge\jtds\jdbcx\proxy\StatementProxy.class
+* net\sourceforge\jtds\ssl\
+* net\sourceforge\jtds\ssl\SocketFactories$1.class
+* net\sourceforge\jtds\ssl\SocketFactories$TdsTlsSocketFactory.class
+* net\sourceforge\jtds\ssl\SocketFactories.class
+* net\sourceforge\jtds\ssl\SocketFactoriesSUN$1.class
+* net\sourceforge\jtds\ssl\SocketFactoriesSUN$TdsTlsSocketFactory.class
+* net\sourceforge\jtds\ssl\SocketFactoriesSUN.class
+* net\sourceforge\jtds\ssl\Ssl.class
+* net\sourceforge\jtds\ssl\TdsTlsInputStream.class
+* net\sourceforge\jtds\ssl\TdsTlsOutputStream.class
+* net\sourceforge\jtds\ssl\TdsTlsSocket.class
+* net\sourceforge\jtds\util\
+* net\sourceforge\jtds\util\BlobBuffer$AsciiInputStream.class
+* net\sourceforge\jtds\util\BlobBuffer$AsciiOutputStream.class
+* net\sourceforge\jtds\util\BlobBuffer$BlobInputStream.class
+* net\sourceforge\jtds\util\BlobBuffer$BlobOutputStream.class
+* net\sourceforge\jtds\util\BlobBuffer$UnicodeInputStream.class
+* net\sourceforge\jtds\util\BlobBuffer.class
+* net\sourceforge\jtds\util\DESEngine.class
+* net\sourceforge\jtds\util\GeneralDigest.class
+* net\sourceforge\jtds\util\Logger.class
+* net\sourceforge\jtds\util\MD4Digest.class
+* net\sourceforge\jtds\util\MD5Digest.class
+* net\sourceforge\jtds\util\SSPIJNIClient.class
+* net\sourceforge\jtds\util\TimerThread$TimerListener.class
+* net\sourceforge\jtds\util\TimerThread$TimerRequest.class
+* net\sourceforge\jtds\util\TimerThread.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+C:\Users\erobles\Documents\android sdk
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

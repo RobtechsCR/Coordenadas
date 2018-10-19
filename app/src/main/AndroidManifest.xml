@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iwop.rastreadormovil"
+    
+    android:versionCode="3"
+    android:versionName="31.5"
+>
+	
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+	
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iwoslogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:persistent="true"
+        >
+        <uses-library android:name="com.android.future.usb.accessory"
+			android:required="false" />
+        
+        <activity
+            android:name="com.iwop.rastreadormovil.Principal"
+            android:label="@string/app_name" android:launchMode="singleTask"><intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name="com.iwop.rastreadormovil.ListenerBooteo" >
+            
+            <intent-filter>
+                <action android:name= "android.intent.action.BOOT_COMPLETED" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.fanon" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.fanoff" >
+                </action>
+                <action android:name= "com.rastreomovil.startservice" >
+                </action>                
+                <action android:name= "android.intent.action.ACTION_POWER_CONNECTED" >
+                </action>
+                <action android:name= "android.intent.action.ACTION_POWER_DISCONNECTED" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.getdatabarras" >
+                </action>
+                <action android:name= "com.rastreomovil.startservicedetectbarrasdelanteras" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.resetdatabarras" >
+                </action>
+                 <action android:name= "android.intent.action.resetrastreoservice" >
+                </action>
+                 <action android:name= "android.intent.action.changenumberbus" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.resetcontadorparada" >
+                </action>
+                <action android:name= "com.rastreomovil.getLoggerFile" >
+                </action>
+                 <action android:name= "com.iwop.rastreadormovil.clearalldata" >
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.rebootdevice" >
+                </action>
+                 <action android:name= "com.iwop.rastreadormovil.senddiferido">
+                </action>
+                <action android:name= "com.iwop.rastreadormovil.changecodigoconductor">
+                </action>
+                
+                
+                
+                
+            </intent-filter>
+           
+        </receiver>
+
+
+		
+        <service
+        android:name="com.iwop.rastreadormovil.LocationService"
+        
+        android:label="LocationService"
+        >
+    </service>
+    <service
+        android:name="com.iwop.rastreadormovil.TestCommands"
+        
+        android:label="TestCommands"
+        >
+    </service>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-3ebe3533c4b8dded51a6f2cca8a35e2c16b883ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\erobles\Documents\android sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-da1bfed1be9e21be4c02d3c020c7c9064bcd4f9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\erobles\Documents\Coordenadas\mysql-connector-java-5.1.36-bin\mysql-connector-java-5.1.36-bin.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="df340b878861acd94a853dbab3e40a1b203cef21">
+        <dex dex="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\pre-dexed\debug\mysql-connector-java-5.1.36-bin-35519e379fe21bf30e06fd354b2f65c338892986.jar" />
+    </item>
+    <item
+        jar="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\erobles\Documents\Coordenadas\app\build\intermediates\pre-dexed\debug\classes-c6db5a28c18fa863d32aa5b2c9c468862d725f48.jar" />
+    </item>
+    <item
+        jar="F:\Programacion\Coordenadas\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="F:\Programacion\Coordenadas\app\build\intermediates\pre-dexed\debug\classes-22ab91f08fe588a671c4b0a95f60ce198fd6e661.jar" />
+    </item>
+    <item
+        jar="F:\Programacion\Coordenadas\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\Programacion\Coordenadas\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-94b0decf198e2fbe80084bd9d1dba6a01c2dad93.jar" />
+    </item>
+    <item
+        jar="F:\Programacion\Coordenadas\mysql-connector-java-5.1.36-bin\mysql-connector-java-5.1.36-bin.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="df340b878861acd94a853dbab3e40a1b203cef21">
+        <dex dex="F:\Programacion\Coordenadas\app\build\intermediates\pre-dexed\debug\mysql-connector-java-5.1.36-bin-c9c58793f3ed64c3f0218f0ed28227dbfb86d3af.jar" />
+    </item>
+    <item
+        jar="C:\Users\erobles.TAPACHULA\Documents\android sdk2\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="F:\Programacion\Coordenadas\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-c07ec0fff86f403ea9e7d52fdd2c70df7ac7258e.jar" />
+    </item>
+
+</items>
